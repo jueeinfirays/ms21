@@ -1,0 +1,95 @@
+.intro{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 3;
+}
+
+.nav-holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 1;
+	background: #54BABB;
+}
+
+.nav-holder li{
+	list-style: none;
+	width: 35%;
+	margin: 0 auto;
+}
+
+.nav-holder ul li a {
+    border: 1px solid #fff;
+    width: 100%;
+    float: left;
+    padding: 6px;
+    display: block;
+    color: #fff;
+    margin: 10px;
+    padding:10px;
+    font-size: 1.2em;
+    -webkit-transition: background .5s linear, color .2s linear;
+       -moz-transition: background .5s linear, color .2s linear;
+        -ms-transition: background .5s linear, color .2s linear;
+         -o-transition: background .5s linear, color .2s linear;
+            transition: background .5s linear, color .2s linear;
+}
+
+.nav-holder ul li a:hover {
+    background: #fff;
+    color: #54BABB;
+    font-weight: bold;
+}
+
+.text-holder{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url('../images/home-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+
+.overlay{
+	padding: 20px;
+	background-color: rgba(41,45,58,0.8); 
+}
+.logo{
+	position: absolute;
+	width: 100%;
+	padding: 10px;
+}
+
+.logo p{
+	line-height: 100px;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.wrapper{
+	position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+	background: #474D5D;
+}
